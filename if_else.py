@@ -23,3 +23,9 @@ if height >= 120:
        print(f"You owe an additional $3.You're final bill is {bill}  ")
 else:
      print("Sorry, you're too short for the ride")
+
+number_to_check= int(input("What is the number you want to check?"))
+if number_to_check %2 ==0:
+   print("The number is even")
+else:
+    print("The number is odd")
